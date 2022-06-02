@@ -1,0 +1,82 @@
+﻿<div class="row">
+                <h2 class="text-center p-4">Lessons</h2>
+                <div class="col-md-3">
+                    <div>
+                       <div class="form-group">
+                          <label>Group</label>
+                          <select class="form-control" v-model="lesson.groupId">
+                              <option v-for='item in groups' :value='item.id'>
+                                  <value>{{item.code}}</value>
+                              </option>
+                          </select>
+                       </div>
+                       <div class="form-group">
+                          <label>Subject</label>
+                          <select class="form-control" v-model="lesson.subjectId">
+                              <option v-for='item in subjects' :value='item.id'>
+                                  <value>{{item.name}}</value>
+                              </option>
+                          </select>
+                       </div>
+                       <div class="form-group">
+                          <label>Teacher</label>
+                          <select class="form-control" v-model="lesson.teacherId">
+                              <option v-for='item in users.filter(x=>x.role == 0)' :value='item.id'>
+                                  <value>{{item.email}}</value>
+                              </option>
+                          </select>
+                       </div>
+                       <div class="form-group">
+                          <label>Start</label>
+                          <input type="datetime-local" class="form-control" v-model="lesson.start">
+                       </div>
+                       <div class="form-group">
+                          <label>Status</label>
+                          <select class="form-control" v-model.number="lesson.status">
+                             <option value="0">None</option>
+                             <option value="1">Started</option>
+                             <option value="2">Ended</option>
+                          </select>
+                       </div>
+                       
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="addLesson">Add</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="updateLesson">Update</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click='lesson = {}'>Reset</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <table class="table text-center">
+                      <thead class="table-light">
+                        <tr>
+                          <th>#</th>
+                          <th>Group</th>
+                          <th>Subject</th>
+                          <th>Teacher</th>
+                          <th>Start</th>
+                          <th>Status</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="item in lessons" v-on:click="lesson = item">
+                          <th>{{item.id}}</th>
+                          <th>{{groups.filter(x=>x.id == item.groupId)[0].code}}</th>
+                          <th>{{subjects.filter(x=>x.id == item.subjectId)[0].name}}</th>
+                          <th>{{users.filter(x=>x.id == item.teacherId)[0].email}}</th>
+                          <th>{{item.start}}</th>
+                          <th>{{item.role == 0 ? 'None' : item.role == 1 ? 'Started' : 'Ended'}}</th>
+                          <th>
+                            <form class="form" method="post" enctype="multipart/form-data" :action='"/api/lesson/" + item.id + "/file"'>
+                                <input type="file" name="formFile">
+                                <button class="btn btn-info">Upload</button>
+                            </form>
+                            <a :href='"/api/lesson/" + item.id + "/file"'>Download</a>
+                            <button class="btn btn-danger" v-on:click='deleteLesson(item)'>Delete</button>
+                          </th>
+                        </tr>
+                      </tbody>
+          
+                    </table>
+                </div>
+            </div>
+            <hr>

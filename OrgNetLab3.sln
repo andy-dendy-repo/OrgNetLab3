@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrgNetLab3", "OrgNetLab3\OrgNetLab3.csproj", "{E8AA7700-C864-41C4-9038-401FE62BB7C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrgNetLab3.Data", "OrgNetLab3.Data\OrgNetLab3.Data.csproj", "{5639BF55-0989-467E-8BF3-AD2C1C094A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8AA7700-C864-41C4-9038-401FE62BB7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AA7700-C864-41C4-9038-401FE62BB7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AA7700-C864-41C4-9038-401FE62BB7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AA7700-C864-41C4-9038-401FE62BB7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5639BF55-0989-467E-8BF3-AD2C1C094A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5639BF55-0989-467E-8BF3-AD2C1C094A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5639BF55-0989-467E-8BF3-AD2C1C094A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5639BF55-0989-467E-8BF3-AD2C1C094A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AEA7D59-1716-43F4-8BC1-17FF647A8C65}
+	EndGlobalSection
+EndGlobal

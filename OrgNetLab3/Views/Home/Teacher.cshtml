@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @{
+        await Html.RenderPartialAsync("Head");
+    }
+    <style>
+        .list-group button {
+            float: right;
+        }
+        th a {
+            display: block;
+            width: 100%;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="p-5 bg-primary text-white text-center">
+            <h1>{{current.firstName + ' ' + current.lastName}}</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/student">Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/teacher">Teacher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api/account/logout">Login out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            @{await Html.RenderPartialAsync("LessonsSection");}
+            @{await Html.RenderPartialAsync("UsersSection");}
+            @{await Html.RenderPartialAsync("GroupsSection");}
+            @{await Html.RenderPartialAsync("SubjectsSection");}
+            @{await Html.RenderPartialAsync("StudentGroupsSection");}
+            @{await Html.RenderPartialAsync("Graph");}
+        </div>
+
+        <div class="mt-5 p-4 bg-dark text-white text-center">
+            <p>Footer</p>
+        </div>
+    </div>
+    <script src="~/core/teacher.js"></script>
+</body>
+</html>

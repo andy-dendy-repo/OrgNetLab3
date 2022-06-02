@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   @{
+        await Html.RenderPartialAsync("Head");
+    }
+<style>
+    .row h1 {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div id="app">
+        <div class="p-5 bg-primary text-white text-center">
+            <h1>{{current.firstName + ' ' + current.lastName}}</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/student">Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/teacher">Teacher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api/account/logout">Login out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row" v-for="group in schedule.groups">
+                <div class="col-md-3">
+                    <h1 v-text='group.name'></h1>
+                </div>
+                <div class="col-md-9">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Start</th>
+                            <th>Subject</th>
+                            <th>Teacher</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr v-for='lesson in group.lessons'>
+                            <td v-text='lesson.start'></td>
+                            <td v-text='lesson.subjectName'></td>
+                            <td v-text='lesson.teacherEmail'></td>
+                            <td><a :href='"/api/lesson/" + lesson.lessonId + "/file"'>Download</a></td>
+                          </tr>
+                        </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 p-4 bg-dark text-white text-center">
+            <p>Footer</p>
+        </div>
+    </div>
+    <script src="~/core/student.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿<div class="row">
+                <h2 class="text-center p-4">Users</h2>
+                <div class="col-md-3">
+                    <div>
+                       <div class="form-group">
+                          <label>Email address</label>
+                          <input class="form-control" v-model="user.email">
+                       </div>
+                       <div class="form-group">
+                          <label>First Name</label>
+                          <input class="form-control" v-model="user.firstName">
+                       </div>
+                       <div class="form-group">
+                          <label>Last Name</label>
+                          <input class="form-control" v-model="user.lastName">
+                       </div>
+                       <div class="form-group">
+                          <label>Password</label>
+                          <input class="form-control" type="password" v-model="user.password">
+                       </div>
+                       <div class="form-group">
+                          <label>Role</label>
+                          <select class="form-control" v-model.number="user.role">
+                             <option value="0">Teacher</option>
+                             <option value="1">Student</option>
+                          </select>
+                       </div>
+                       <div class="form-group">
+                          <label>Date Of Birth</label>
+                          <input type="date" class="form-control" v-model="user.dateOfBirth">
+                       </div>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="addUser">Add</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="updateUser">Update</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click='user = {}'>Reset</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <table class="table text-center">
+                      <thead class="table-light">
+                        <tr>
+                          <th>#</th>
+                          <th>First</th>
+                          <th>Last</th>
+                          <th>Email</th>
+                          <th>Date Of Birth</th>
+                          <th>Password</th>
+                          <th>Role</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="item in users" v-on:click="user = item">
+                          <th>{{item.id}}</th>
+                          <th>{{item.firstName}}</th>
+                          <th>{{item.lastName}}</th>
+                          <th>{{item.email}}</th>
+                          <th>{{item.dateOfBirth}}</th>
+                          <th>******</th>
+                          <th>{{item.role == 0 ? 'Teacher' : 'User'}}</th>
+                          <th><button class="btn btn-danger" v-on:click='deleteUser(item)'>Delete</button></th>
+                        </tr>
+                      </tbody>
+          
+                    </table>
+                </div>
+            </div>
+            <hr>

@@ -1,0 +1,34 @@
+﻿<div class="row">
+                <h2 class="text-center p-4">Groups</h2>
+                <div class="col-md-3">
+                    <div>
+                       <div class="form-group">
+                          <label>Code</label>
+                          <input class="form-control" v-model="group.code">
+                       </div>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="addGroup">Add</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="updateGroup">Update</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click='group = {}'>Reset</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <table class="table text-center">
+                      <thead class="table-light">
+                        <tr>
+                          <th>#</th>
+                          <th>Name</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="item in groups" v-on:click="group = item">
+                          <th>{{item.id}}</th>
+                          <th>{{item.code}}</th>
+                          <th><button class="btn btn-danger" v-on:click='deleteGroup(item)'>Delete</button></th>
+                        </tr>
+                      </tbody>
+          
+                    </table>
+                </div>
+            </div>
+            <hr>

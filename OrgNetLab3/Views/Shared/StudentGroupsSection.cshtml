@@ -1,0 +1,50 @@
+﻿<div class="row">
+                <h2 class="text-center p-4">Student groups</h2>
+                <div class="col-md-3">
+                    <div>
+                       <div class="form-group">
+                          <label>Group</label>
+                          <select class="form-control" v-model="studentGroup.groupId">
+                              <option v-for='item in groups' :value='item.id'>
+                                  <value>{{item.code}}</value>
+                              </option>
+                          </select>
+                       </div>
+                       <div class="form-group">
+                          <label>Student</label>
+                          <select class="form-control" v-model="studentGroup.studentId">
+                              <option v-for='item in users.filter(x=>x.role == 1)' :value='item.id'>
+                                  <value>{{item.firstName + ' ' + item.lastName}}</value>
+                              </option>
+                          </select>
+                       </div>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click="addStudentGroup">Add</button>
+                       <button type="submit" class="btn btn-primary mt-3" v-on:click='studentGroup = {}'>Reset</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <table class="table text-center">
+                      <thead class="table-light">
+                        <tr>
+                          <th>Group</th>
+                          <th>Students</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="item in studentGroups">
+                          <th>{{getGroupById(item.groupId).code}}</th>
+                          <th>
+                              <ul class="list-group">
+                                  <li class="list-group-item" v-for='studId in item.students'>
+                                      <span>{{getUserById(studId).firstName + ' ' + getUserById(studId).lastName}}</span>
+                                      <button class="btn btn-danger" v-on:click='deleteStudentGroup({groupId : item.groupId, studentId: studId })'>Delete</button>
+                                  </li>
+                              </ul>
+                          </th>
+                        </tr>
+                      </tbody>
+          
+                    </table>
+                </div>
+            </div>
+            <hr>
