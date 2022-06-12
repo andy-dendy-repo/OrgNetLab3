@@ -2,6 +2,6 @@
                 <h2 class="text-center p-4">Graphs</h2>
                 <div class="col-md-3" v-for='teacher in users.filter(x=>x.role==0)'>
                     <p v-text='teacher.email'></p>
-                    <img :src='"/api/lesson/graph/"+teacher.id'/>
+                    <img style="width: 100%;" :src='"/api/lesson/graph/"+teacher.id'/>
                 </div>
 </div>

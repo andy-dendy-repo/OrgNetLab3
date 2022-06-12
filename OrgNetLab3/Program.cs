@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
+using OrgNetLab3;
 using OrgNetLab3.Data.Services;
 using OrgNetLab3.Token;
 using System.Data;
@@ -16,8 +17,10 @@ services.AddScoped<LessonRepository>();
 services.AddScoped<StudentGroupRepository>();
 services.AddScoped<SubjectRepository>();
 services.AddScoped<UserRepository>();
+services.AddScoped<MessageRepository>();
 
-services.AddSignalR();
+services.AddSignalR(x=>x.MaximumReceiveMessageSize = long.MaxValue);
+
 services.AddSwaggerGen();
 
 builder.Services.AddHttpContextAccessor();
@@ -67,5 +70,6 @@ app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapHub<ChatHub>("/chat");
 app.Run();
 

@@ -57,6 +57,85 @@ CREATE TABLE [Lesson] (
 );
 GO
 
+CREATE TABLE [Message] (
+    [Id] uniqueidentifier NOT NULL,
+    [From] uniqueidentifier NOT NULL,
+	[To] uniqueidentifier NOT NULL,
+	[Text] nvarchar(max) NOT NULL,
+	[Date] datetime NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+GO
+
+CREATE OR ALTER PROC [dbo].[Select Message] 
+    @Id uniqueidentifier
+AS 
+	SET NOCOUNT ON 
+	SET XACT_ABORT ON
+	SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+
+	BEGIN TRAN
+
+	SELECT *
+	FROM   [dbo].[Message] 
+	WHERE  ([Id] = @Id OR @Id IS NULL) 
+
+	COMMIT
+GO
+CREATE OR ALTER PROC [dbo].[Insert Message] 
+    @Id uniqueidentifier NOT NULL,
+    @From uniqueidentifier NOT NULL,
+	@To uniqueidentifier NOT NULL,
+	@Text nvarchar(max) NOT NULL,
+	@Date datetime NOT NULL
+AS 
+	SET NOCOUNT ON 
+	SET XACT_ABORT ON  
+	SET TRANSACTION ISOLATION LEVEL READ COMMITTED	
+
+	BEGIN TRAN
+	
+	INSERT INTO [dbo].[Message] ([Id], [From], [To], [Text], [Date])
+	SELECT @Id, @From, @To, @Text, @Date
+               
+	COMMIT
+GO
+CREATE OR ALTER PROC [dbo].[Update Message] 
+    @Id uniqueidentifier NOT NULL,
+    @From uniqueidentifier NOT NULL,
+	@To uniqueidentifier NOT NULL,
+	@Text nvarchar(max) NOT NULL,
+	@Date datetime NOT NULL
+AS 
+	SET NOCOUNT ON 
+	SET XACT_ABORT ON  
+	SET TRANSACTION ISOLATION LEVEL READ COMMITTED	
+
+	BEGIN TRAN
+
+	UPDATE [dbo].[Message]
+	SET    [From] = @From, [To] = @To, [Text] = @Text, [Date] = @Date
+	WHERE  [Id] = @Id
+
+	COMMIT
+GO
+CREATE OR ALTER PROC [dbo].[Delete Message] 
+    @Id uniqueidentifier
+AS 
+	SET NOCOUNT ON 
+	SET XACT_ABORT ON  
+	SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+	
+	BEGIN TRAN
+
+	DELETE
+	FROM   [dbo].[Message]
+	WHERE  [Id] = @Id
+
+	COMMIT
+GO
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 CREATE OR ALTER PROC [dbo].[Select Group] 
     @Id uniqueidentifier
 AS 

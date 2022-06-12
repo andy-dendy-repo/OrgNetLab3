@@ -67,12 +67,12 @@ namespace OrgNetLab3.Controllers
             }
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> Delete(params object[] keys)
+        [HttpDelete("{keys}")]
+        public async Task<IActionResult> Delete(string keys)
         {
             try
             {
-                await _baseRepository.Delete(keys);
+                await _baseRepository.Delete(keys.Split('+'));
                 return Ok();
             }
             catch (Exception ex)

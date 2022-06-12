@@ -16,7 +16,14 @@ namespace OrgNetLab3.Data.Core
 
         protected async Task Log(string sql)
         {
-            await File.AppendAllTextAsync(_logPath, $"SQL: [{sql}]; USER: [{UserId}]\n");
+            try
+            {
+                await File.AppendAllTextAsync(_logPath, $"SQL: [{sql}]; USER: [{UserId}]\n");
+            }
+            catch
+            {
+
+            }
         }
 
         protected abstract void SetPrimaryKeysBeforeInsert(T entity);

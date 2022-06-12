@@ -64,7 +64,7 @@
                           <th>{{subjects.filter(x=>x.id == item.subjectId)[0].name}}</th>
                           <th>{{users.filter(x=>x.id == item.teacherId)[0].email}}</th>
                           <th>{{item.start}}</th>
-                          <th>{{item.role == 0 ? 'None' : item.role == 1 ? 'Started' : 'Ended'}}</th>
+                          <th>{{item.status == 0 ? 'None' : item.role == 1 ? 'Started' : 'Ended'}}</th>
                           <th>
                             <form class="form" method="post" enctype="multipart/form-data" :action='"/api/lesson/" + item.id + "/file"'>
                                 <input type="file" name="formFile">

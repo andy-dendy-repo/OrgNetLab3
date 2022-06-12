@@ -10,6 +10,12 @@ namespace OrgNetLab3.Controllers
             return View();
         }
 
+        [Authorize]
+        public IActionResult Chat()
+        {
+            return View();
+        }
+
         [Authorize(Roles = "Student")]
         public IActionResult Student()
         {

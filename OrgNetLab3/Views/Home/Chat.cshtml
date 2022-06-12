@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @{
+        await Html.RenderPartialAsync("Head");
+    }
+    
+    <style>
+        form {
+            max-width: 500px !important;
+            margin: auto;
+            margin-top: 25px !important;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="p-5 bg-primary text-white text-center">
+            <h1>Welcome to school</h1>
+            <p>Remember: your parents are gonna punish you for misbehaving</p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/student">Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/teacher">Teacher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/chat">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api/account/logout">Login out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-group">
+                      <li :class="user == selectedUser ? 'list-group-item active' : 'list-group-item'"
+                            v-for='user in users' v-text='user.firstName + " " + user.lastName'
+                            v-on:click='selectedUser = user'>
+                        
+                      </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <p v-for='item in messages.filter(x=>(x.to == selectedUser.id && x.from == current.id) || (x.to == current.id && x.from == selectedUser.id))'
+                        v-text='item.text' :style="item.to == selectedUser.id ? 'text-align:right;' : 'text-align:left;'">
+
+                    </p>
+                    <input type="text" v-model='text' />
+                    <button v-on:click='sendMessage'>Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 p-4 bg-dark text-white text-center">
+            <p>Footer</p>
+        </div>
+    </div>
+    <script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            connection: null,
+            current: null,
+            users: [],
+            selectedUser: null,
+            messages: [],
+            text: ''
+        },
+        created: async function() {
+            this.current = await Get('/api/account/current');
+            await this.getUsers();
+            await this.connect();
+            await this.getMessages();
+        },
+        methods:
+        {
+            getUsers: async function() {
+                this.users = (await Get('/api/user/')).filter(x=>x.id != this.current.id);
+            },
+
+            newMessageList: function(list) {
+                this.messages = list;
+            },
+
+            getMessages: async function() {
+                let list = await this.connection.invoke('GetMessages');
+                this.messages = list;
+            },
+
+            sendMessage: async function() {
+                await this.connection.invoke('SendMessage', this.selectedUser.id, this.text);
+            },
+
+            connect: async function() {
+                this.connection = new signalR.HubConnectionBuilder()
+                    .withUrl("/chat?uid=" + this.current.id)
+                    .withAutomaticReconnect()
+                    .build();
+
+                this.connection.on('NewMessageList', this.newMessageList);
+
+                await this.connection.start();
+            }
+        }
+    });
+    </script>
+</body>
+</html>

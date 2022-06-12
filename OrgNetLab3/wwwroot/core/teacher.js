@@ -46,7 +46,7 @@
             await this.refresh();
         },
         deleteUser: async function (user) {
-            await Delete('/api/user' + user.id);
+            await Delete('/api/user/' + user.id);
             await this.refresh();
         },
         /*---groups---*/
@@ -62,7 +62,7 @@
             await this.refresh();
         },
         deleteGroup: async function (group) {
-            await Delete('/api/group' + group.id);
+            await Delete('/api/group/' + group.id);
             await this.refresh();
         },
         /*---subjects---*/
@@ -78,7 +78,7 @@
             await this.refresh();
         },
         deleteSubject: async function (subject) {
-            await Delete('/api/subject' + subject.id);
+            await Delete('/api/subject/' + subject.id);
             await this.refresh();
         },
         /*---studentGroups---*/
@@ -91,7 +91,7 @@
             await this.refresh();
         },
         deleteStudentGroup: async function (studentGroup) {
-            await Delete('/api/StudentGroup/' + studentGroup.groupId + '/' + studentGroup.studentId);
+            await Delete('/api/StudentGroup/' + studentGroup.groupId + '+' + studentGroup.studentId);
             await this.refresh();
         },
         /*---lessons---*/
@@ -99,7 +99,7 @@
             this.lessons = await Get('/api/lesson/');
         },
         addLesson: async function () {
-            await Post('/api/lesson', this.lesson);
+            await Post('/api/lesson/', this.lesson);
             await this.refresh();
         },
         updateLesson: async function () {
@@ -107,7 +107,7 @@
             await this.refresh();
         },
         deleteLesson: async function (lesson) {
-            await Delete('/api/lesson' + lesson.id);
+            await Delete('/api/lesson/' + lesson.id);
             await this.refresh();
         },
         /*---utils---*/

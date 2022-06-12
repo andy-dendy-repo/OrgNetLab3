@@ -55,9 +55,6 @@ async function Delete(url) {
     try {
         let resp = await fetch(url, {
             method: "DELETE",
-            headers: {
-                "Authorization": "Bearer " + access_token
-            }
         });
 
         return true;

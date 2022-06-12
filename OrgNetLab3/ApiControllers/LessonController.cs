@@ -40,7 +40,7 @@ namespace OrgNetLab3.ApiControllers
 
             await _lessonRepository.SetFile(lessonId, memoryStream.ToArray());
 
-            return Ok();
+            return Redirect("/home/teacher");
         }
 
         [HttpGet("graph/{teacherId}")]
