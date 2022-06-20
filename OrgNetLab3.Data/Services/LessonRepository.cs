@@ -31,12 +31,30 @@ namespace OrgNetLab3.Data.Services
             return result.File;
         }
 
-        public async Task SetFile(Guid lessonId, byte[] file)
+        public class Result
+        {
+            public string Status { get; set; }
+        }
+
+        public async Task<bool> SetFile(Guid lessonId, byte[] file)
         {
             
-            string sql = $"update [Lesson] set [File] = @Bytes where Id = '{lessonId}'";
+            string sql = @$"
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '{lessonId}' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '{lessonId}';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ";
+
             await Log(sql);
-            await _connection.ExecuteAsync(sql, new { Bytes = file });
+
+            var result = await _connection.QueryFirstAsync<Result>(sql, new { Bytes = file });
+
+            return result.Status == "True";
         }
     }
 }

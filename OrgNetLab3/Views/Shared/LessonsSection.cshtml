@@ -58,7 +58,7 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr v-for="item in lessons" v-on:click="lesson = item">
+                        <tr v-for="item in lessons" v-on:click="lesson = item" :style="item.teacherId == current.id ? 'border: 2px solid green;' : false">
                           <th>{{item.id}}</th>
                           <th>{{groups.filter(x=>x.id == item.groupId)[0].code}}</th>
                           <th>{{subjects.filter(x=>x.id == item.subjectId)[0].name}}</th>

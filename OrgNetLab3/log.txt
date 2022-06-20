@@ -1449,3 +1449,665 @@ SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
 SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
 SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
 SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[Insert Message]]; USER: []
+SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [update [Lesson] set [File] = @Bytes where Id = '22ff3385-5780-40bd-b049-d32dab7f8453']; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [select g.Code Name, l.Id LessonId, u.Email TeacherEmail, l.Start Start, s.Name SubjectName from [Group] g
+                            join [StudentGroup] sg on sg.GroupId = g.Id 
+                            join [Lesson] l on l.GroupId = g.Id 
+                            join [Subject] s on s.Id = l.SubjectId 
+                            join [User] u on u.Id = l.TeacherId 
+                            where sg.StudentId = '40347047-a293-42ac-a31a-36d8d7b3486b' 
+                            group by g.Code, u.Email, l.Id, l.Start, s.Name]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select Message]]; USER: []
+SQL: [[Insert Message]]; USER: []
+SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [select g.Code Name, l.Id LessonId, u.Email TeacherEmail, l.Start Start, s.Name SubjectName from [Group] g
+                            join [StudentGroup] sg on sg.GroupId = g.Id 
+                            join [Lesson] l on l.GroupId = g.Id 
+                            join [Subject] s on s.Id = l.SubjectId 
+                            join [User] u on u.Id = l.TeacherId 
+                            where sg.StudentId = '40347047-a293-42ac-a31a-36d8d7b3486b' 
+                            group by g.Code, u.Email, l.Id, l.Start, s.Name]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select Message]]; USER: []
+SQL: [[Insert Message]]; USER: []
+SQL: [[Select Message]]; USER: []
+SQL: [[Insert Message]]; USER: []
+SQL: [[Select Message]]; USER: []
+SQL: [[Insert Message]]; USER: []
+SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select True;
+                return;
+            end;
+            select False;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select 'True';
+                return;
+            end;
+            select 'False';
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select 'True';
+                return;
+            end;
+            select 'False';
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select 'True' as result;
+                return;
+            end;
+            select 'False' as result;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select 'True' as result;
+                return;
+            end;
+            select 'False' as result;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '47282875-cd42-4411-8bdf-afa26eb0a9f5';
+                select 'True' as Status;
+                return;
+            end;
+            select 'False' as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Delete Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = '22ff3385-5780-40bd-b049-d32dab7f8453' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '22ff3385-5780-40bd-b049-d32dab7f8453';
+                select 'True' as Status;
+                return;
+            end;
+            select 'False' as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                select 'True' as Status;
+                return;
+            end;
+            select 'False' as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [select [File] from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d']; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] = NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [select [File] from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d']; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [select g.Code Name, l.Id LessonId, u.Email TeacherEmail, l.Start Start, s.Name SubjectName from [Group] g
+                            join [StudentGroup] sg on sg.GroupId = g.Id 
+                            join [Lesson] l on l.GroupId = g.Id 
+                            join [Subject] s on s.Id = l.SubjectId 
+                            join [User] u on u.Id = l.TeacherId 
+                            where sg.StudentId = '40347047-a293-42ac-a31a-36d8d7b3486b' 
+                            group by g.Code, u.Email, l.Id, l.Start, s.Name]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select User]]; USER: [40347047-a293-42ac-a31a-36d8d7b3486b]
+SQL: [[Select Message]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select Message]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = 'ed5700e2-e002-4644-af38-32ef55b5d67d';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: []
+SQL: [[Select User]]; USER: []
+SQL: [[Select User]]; USER: []
+SQL: [[Select Group]]; USER: []
+SQL: [[Select Subject]]; USER: []
+SQL: [[Select StudentGroup]]; USER: []
+SQL: [[Select Lesson]]; USER: []
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: []
+SQL: [[Select User]]; USER: []
+SQL: [[Select Lesson]]; USER: []
+SQL: [[Select Subject]]; USER: []
+SQL: [[Select StudentGroup]]; USER: []
+SQL: [[Select Lesson]]; USER: []
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Insert Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [1dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[GetUserByEmail]]; USER: []
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select User]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Group]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Subject]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select StudentGroup]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [
+            SET TRANSACTION ISOLATION LEVEL Serializable;
+            declare @res nvarchar(100) = 'False'
+            if exists(select * from [Lesson] where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a' and [File] is NULL)
+            begin;
+                update [Lesson] set [File] = @Bytes where Id = '4eda8ba5-02e4-49ee-9857-c46b773f268a';
+                set @res = 'True'
+            end;
+            select @res as Status;
+            ]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]
+SQL: [[Select Lesson]]; USER: [2dd77ea4-e584-4447-a819-739c32aeb220]

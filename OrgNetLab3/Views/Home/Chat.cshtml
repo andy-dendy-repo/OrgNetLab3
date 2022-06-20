@@ -11,6 +11,18 @@
             margin: auto;
             margin-top: 25px !important;
         }
+        .right {
+            text-align: right;
+            background: aliceblue;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .left {
+            text-align: left;
+            background: #b4fddb69;
+            padding: 5px;
+            border-radius: 10px;
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
 </head>
@@ -56,11 +68,11 @@
                 </div>
                 <div class="col-md-8">
                     <p v-for='item in messages.filter(x=>(x.to == selectedUser.id && x.from == current.id) || (x.to == current.id && x.from == selectedUser.id))'
-                        v-text='item.text' :style="item.to == selectedUser.id ? 'text-align:right;' : 'text-align:left;'">
+                        v-text='item.text' :class="item.to == selectedUser.id ? 'right' : 'left'">
 
                     </p>
-                    <input type="text" v-model='text' />
-                    <button v-on:click='sendMessage'>Submit</button>
+                    <input type="text" v-model='text' class="form-control"/>
+                    <button v-on:click='sendMessage' class="btn btn-success mt-3 m-auto d-block">Submit</button>
                 </div>
             </div>
         </div>

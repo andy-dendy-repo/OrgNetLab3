@@ -2,6 +2,7 @@
 using OrgNetLab3.Controllers;
 using OrgNetLab3.Data.Entity;
 using OrgNetLab3.Data.Services;
+using OrgNetLab3.Token;
 using System.Drawing;
 using System.Drawing.Imaging;
 
@@ -29,7 +30,7 @@ namespace OrgNetLab3.ApiControllers
         }
 
         [HttpPost("{lessonId}/file")]
-        public async Task<IActionResult> SetFile(Guid lessonId, IFormFile formFile)
+        public async Task<IActionResult> SetFile([FromServices] IHttpContextAccessor httpContextAccessor, Guid lessonId, IFormFile formFile)
         {
             if (!formFile.FileName.EndsWith(".txt"))
                 return BadRequest();
@@ -38,7 +39,19 @@ namespace OrgNetLab3.ApiControllers
 
             await formFile.CopyToAsync(memoryStream);
 
-            await _lessonRepository.SetFile(lessonId, memoryStream.ToArray());
+            var result = await _lessonRepository.SetFile(lessonId, memoryStream.ToArray());
+
+            var id = httpContextAccessor.GetUserId();
+
+            var lesson = await _lessonRepository.GetById(lessonId);
+
+            bool isOwner = id == lesson.TeacherId.ToString();
+
+            if(isOwner && !result)
+                return BadRequest("File already set by you");
+
+            if (!isOwner && !result)
+                return BadRequest("File already set by owner");
 
             return Redirect("/home/teacher");
         }

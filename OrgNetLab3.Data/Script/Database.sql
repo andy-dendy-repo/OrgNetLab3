@@ -63,7 +63,7 @@ CREATE TABLE [Message] (
 	[To] uniqueidentifier NOT NULL,
 	[Text] nvarchar(max) NOT NULL,
 	[Date] datetime NOT NULL,
-    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+    CONSTRAINT [PK_Message] PRIMARY KEY ([Id]),
 );
 GO
 
